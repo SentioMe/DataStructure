@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{a662b8d6-76cc-4215-9686-7c6cf54ee008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections">
+      <UniqueIdentifier>{cf1faa7a-b3ea-4b0d-b124-846f904aa11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ff16d50f-668b-431b-a6cf-e92364f0f7bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sort\BubbleSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SALibrary.h" />
+    <ClInclude Include="Sort\MergeSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort\QuickSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CommonUtil.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Stopwatch.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\Vector.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\LinkedList.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Collections\IEnumrable.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

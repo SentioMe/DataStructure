@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ConsoleMain.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SortTest.cpp" />
+    <ClCompile Include="CollectionsTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SortTest.h" />
+    <ClInclude Include="CollectionsTest.h" />
+  </ItemGroup>
+</Project>
